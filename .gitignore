@@ -53,5 +53,11 @@
 
 
 #symfo
-LocalGuides/.env
+
 LocalGuides/.env.local
+LocalGuides/.env.local.php
+LocalGuides/.env.*.local
+LocalGuides/config/secrets/prod/prod.decrypt.private.php
+LocalGuides/public/bundles/
+LocalGuides/var/
+LocalGuides/vendor/

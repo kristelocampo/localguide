@@ -29,17 +29,12 @@
 
    php bin/console doctrine:database:create
 
-5. Create your entities. (Entities are the one in your diagram. It must be carefully configured).
-
-    php bin/console make:entity
-
-
-
-    Add FOSUserBundle to your Symfony project using Composer:
-    composer require friendsofsymfony/user-bundle "~2.0" composer require friendsofsymfony/user-bundle "~2.0"
+5. Create your entities.
 
     php bin/console make:user User
-    php bin/console make:user Guide
+
+    php bin/console make:entity ....
+
 
 6. After each entity to push to the database you have to type the following.
 
@@ -50,17 +45,14 @@
 9. Create a controller.
 
     php bin/console make:controller HomeController
-    php bin/console make:controller AdminController
-    php bin/console make:controller GuideController
-    php bin/console make:controller UserController
 
-10. Create a form for registration for Guide and User
+10. Create a form for registration and User
+
+    composer require form validator
+
     php bin/console make:registration-form
-    php bin/console make:form GuideRegistration
 
-11. Add other Entities
 
-12. Add Fixtures  to add database
 
 
 13. Create CRUD
