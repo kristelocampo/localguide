@@ -1,0 +1,75 @@
+1.
+    symfony new LocalGuides --version="6.2.*"
+2.
+    cd LocalGuides
+    composer install
+3. Install the packages needed
+
+    composer require symfony/orm-pack
+    composer require --dev symfony/maker-bundle
+    composer require symfony/messenger
+    composer require symfony/mailer
+
+    //assets and api
+    composer require symfony/asset
+    composer require api
+
+    //twig bundle
+    composer require symfony/twig-bundle
+
+    //security composer
+    composer require --dev symfony/profiler-pack
+
+4. Duplicate .env to .env.local to connect to your database.
+
+   You need MAMP to start and have the port, user and password to be added into .env.local
+
+   DATABASE_URL="mysql://root:root@127.0.0.1:8889/localguides?serverVersion=8.0.32&charset=utf8mb4"
+
+
+   php bin/console doctrine:database:create
+
+5. Create your entities. (Entities are the one in your diagram. It must be carefully configured).
+
+    php bin/console make:entity
+
+
+
+    Add FOSUserBundle to your Symfony project using Composer:
+    composer require friendsofsymfony/user-bundle "~2.0" composer require friendsofsymfony/user-bundle "~2.0"
+
+    php bin/console make:user User
+    php bin/console make:user Guide
+
+6. After each entity to push to the database you have to type the following.
+
+    php bin/console make:migration
+    php bin/console doctrine:migrations:migrate
+
+
+9. Create a controller.
+
+    php bin/console make:controller HomeController
+    php bin/console make:controller AdminController
+    php bin/console make:controller GuideController
+    php bin/console make:controller UserController
+
+10. Create a form for registration for Guide and User
+    php bin/console make:registration-form
+    php bin/console make:form GuideRegistration
+
+11. Add other Entities
+
+12. Add Fixtures  to add database
+
+
+13. Create CRUD
+
+
+16. Start symfony
+
+    symfony server:start
+    http://localhost:8000/
+
+17. Create Login
+

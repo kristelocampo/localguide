@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MessDetectorOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCSFixerOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCodeSnifferOptionsConfiguration">
+    <option name="highlightLevel" value="WARNING" />
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/messenger" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/twig-bridge" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/asset" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/serializer" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/twig-bundle" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/nelmio/cors-bundle" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/web-profiler-bundle" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/mailer" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/phpstan/phpdoc-parser" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/security-http" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/security-bundle" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/web-link" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/password-hasher" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/security-csrf" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/runtime" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/security-core" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/property-info" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/composer" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/expression-language" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/api-platform/core" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/willdurand/negotiation" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/doctrine/sql-formatter" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/form" />
+      <path value="$PROJECT_DIR$/LocalGuides/vendor/symfony/polyfill-intl-icu" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.1" />
+  <component name="PhpStanOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PsalmOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+</project>
